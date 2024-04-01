@@ -1,0 +1,16 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "idf.portWin": "COM6",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "app_sensor.h": "c",
+        "adc.h": "c",
+        "adc_cali.h": "c"
+    }
+}

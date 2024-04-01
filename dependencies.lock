@@ -1,0 +1,178 @@
+dependencies:
+  app_insights:
+    component_hash: 3be9a598275d7623aee4d14aa116193a99cc3314bc54beee8a49a97295f33f92
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: examples/common/app_insights
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  app_reset:
+    component_hash: bd43758c8182604764f945af75f8c47cdcabb0366aee6f0edf241ee2368e590e
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: examples/common/app_reset
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  esp_diagnostics:
+    component_hash: b0f33f25bb980e8008dfda05c9f837892048d09ddeefba1d72c7f60654729883
+    source:
+      git: https://github.com/espressif/esp-insights.git
+      path: components/esp_diagnostics
+      type: git
+    version: 203a87f671710295579404f7d4c62a8a5e25ae7c
+  esp_insights:
+    component_hash: 1afef77b2469cc4269cbbee70d1d240378a3c07ae4a6f100ecd794799b8758f0
+    source:
+      git: https://github.com/espressif/esp-insights.git
+      path: components/esp_insights
+      type: git
+    version: 203a87f671710295579404f7d4c62a8a5e25ae7c
+  esp_rainmaker:
+    component_hash: 40db2acaf78fd52357d8a75c7ff10b47eb596578c0b4483ee53d692fba7a5f01
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: components/esp_rainmaker
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  esp_schedule:
+    component_hash: 8d11eec0548110ca607bd3991afcb208f17eb28140be56a5787ed8999406307e
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: components/esp_schedule
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  espressif/cbor:
+    component_hash: 440f4ee4504841cc9b4f3a8ef755776a612ac9dace355514c68b999868f990ff
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.6.0~1
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.5.3
+  espressif/esp_modem:
+    component_hash: e48da33fee082dd9d9a97a354a228057e07a14ac108766b40ad84e018205410a
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.1.0
+  espressif/esp_modem_usb_dte:
+    component_hash: 3ff603371f34831d6b63005a7ca019d36b56c0e5717dbc367ff8bb039705378a
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.1.0~1
+  espressif/esp_secure_cert_mgr:
+    component_hash: a20007d67e65a000670ab77e45d7554c943eb8dcb0abeada0a57dd9adac3a703
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.4.1
+  espressif/esp_tinyusb:
+    component_hash: f151d680d6847bfcfd5d8eb6d1c3ff926c208e6b963b2e83643a141bc70baa15
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.4.4
+  espressif/iot_bridge:
+    component_hash: e8c963973f94b82dd840d6f0bd6a334c5a84445e54bd0804629fef4ed104c72d
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.11.1
+  espressif/led_strip:
+    component_hash: 67d2744208e9c12d8b1992d21c979396c1726e57cb7e35e7c171c515be20f8ea
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.5.3
+  espressif/mdns:
+    component_hash: d8ae7aa491ff97aea1d00d514a1de42cdbaaf1bce10df183968fa5594b904de7
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.2.5
+  espressif/mesh_lite:
+    component_hash: 9fc7dbd68deb5fef0ebe51268d81a1ca3b9a1bbd9e14e749d20a3e811ed5fec6
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.10.1
+  espressif/tinyusb:
+    component_hash: a01cfb210e3bca8f046ca55b3aeb6b4329c22345ca2479e29d1ce7dc267abe65
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.15.0~5
+  espressif/usb_host_cdc_acm:
+    component_hash: b08bc47056e1d4f8b30fbaec77636cedad0435446f256fa0a75650752d1deca6
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.0.2~1
+  gpio_button:
+    component_hash: b998b0cedbefa1f1bf3144a93b8a37d148ee9d1c23aedfe1454526afc0fc5217
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: components/gpio_button
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.1.3
+  json_generator:
+    component_hash: 533e9355ad48285de02f35f6e278c26bd1a04f746e41d43766af10f91b82ba52
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: components/json_generator
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  json_parser:
+    component_hash: e680626907d5990746ff89ddfb1deed821bb612f6039a822c59b5e6d2cf7cd71
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: components/json_parser
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  qrcode:
+    component_hash: 7c821a8cb7241b693b1252a2f559173cbe683626df3086c219bcc80ae4ba989e
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: components/qrcode
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  rmaker_common:
+    component_hash: 786a8e2b2c5f1a080c455fbc6d0f188f8e92475f6f81a7034d9b214578b5bf4f
+    source:
+      git: https://github.com/espressif/esp-rainmaker.git
+      path: components/rmaker_common
+      type: git
+    version: 3d5adc51290e28d0dd899ae6f6dd0ad7281e0dfb
+  rtc_store:
+    component_hash: 56f070180d313924ef59a2c4500ef9685be7764e8e27bb8250440beeed01cea4
+    source:
+      git: https://github.com/espressif/esp-insights.git
+      path: components/rtc_store
+      type: git
+    version: 203a87f671710295579404f7d4c62a8a5e25ae7c
+  suda-morris/am2302_rmt:
+    component_hash: b46dd8c20dee72654e8ea4a43b16e8a93e984a6c10426392a4b8486fed50ca93
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.0
+  usb_device:
+    component_hash: 89d8733490443f6cdfe7bc7de3da0146e3f32d7d495dd7e4b209739073c5b9ca
+    source:
+      git: https://github.com/espressif/esp-iot-bridge.git
+      path: components/usb/usb_device
+      type: git
+    version: 16ce42dcd3480e5542e6677501544b2ec8756b92
+manifest_hash: 06d80aabdc71e2c2059adde1a187e30df91e6610960ae815fc974cb046ae5f47
+target: esp32s3
+version: 1.0.0

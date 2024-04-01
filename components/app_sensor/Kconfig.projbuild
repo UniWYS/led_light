@@ -1,0 +1,60 @@
+menu "Sensor Configuration"
+    menu "LED configuration"
+        config LED_GPIO
+            int "LED GPIO"
+            default 19
+            help
+                Set the LED GPIO.
+
+        config LED_NUMBERS
+            int "LED NUM"
+            default 60
+            help
+                Set the LED NUM.
+    endmenu
+
+    menu "DHT22 Configuration"
+        config DHT22_GPIO
+            int "DHT22 GPIO"
+            default 11
+            help
+                Set the DHT22 GPIO.
+    endmenu
+
+    menu "Water Pump GPIO Configuration"
+        config WATER_GPIO
+            int "WATER PUMP GPIO"
+            default 45
+            help
+                Set the WATER PUMP GPIO.
+    endmenu
+    
+    menu "Fan GPIO Configuration"
+        config FAN_GPIO
+            int "FAN GPIO"
+            default 38
+            help
+                Set the FAN GPIO.
+    endmenu
+
+    menu "Ultrasonic Configuration"
+        config TRIGGER_GPIO
+            int "Ultrasonic Trigger GPIO"
+            default 13
+            help
+                Set the Ultrasonice Trigger GPIO.
+        
+        config ECHO_GPIO
+            int "Ultrasonic ECHO GPIO"
+            default 14
+            help
+                Set the Ultrasonice ECHO GPIO.
+    endmenu
+    config EXAMPLE_ENABLE_TEST_NOTIFICATIONS
+        bool "Test Notifications"
+        default y
+        help
+            Enable this option to test mobile push notifications. When enabled, turning on the switch using
+            push button will trigger a parameter notification {"Switch":{"Power":true}} and turning off will
+            trigger an alert "Switch was turned off".
+endmenu

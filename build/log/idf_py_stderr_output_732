@@ -1,0 +1,10 @@
+warning: the int symbol BRIDGE_SOFTAP_MAX_CONNECT_NUMBER (defined at D:/IoT182/led_light/managed_components/espressif__iot_bridge/Kconfig:90) has a non-int default BRIDGE_CUSTOM_MAX_CONNECT_NUMBER (undefined)
+Compiler supported targets: xtensa-esp32s3-elf
+
+ESP Insights Project commit: HEAD-HASH-NOTFOUND
+ESP RainMaker Project commit: HEAD-HASH-NOTFOUND
+error: patch failed: src/core/ipv4/ip4.c:332
+error: src/core/ipv4/ip4.c: patch does not apply
+fatal: not a git repository (or any of the parent directories): .git
+warning: the int symbol BRIDGE_SOFTAP_MAX_CONNECT_NUMBER (defined at D:/IoT182/led_light/managed_components/espressif__iot_bridge/Kconfig:90) has a non-int default BRIDGE_CUSTOM_MAX_CONNECT_NUMBER (undefined)
+Server running, waiting for requests on stdin...

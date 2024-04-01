@@ -1,0 +1,63 @@
+dependencies:
+  app_insights:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: examples/common/app_insights
+    version: 3d5adc5
+  app_reset:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: examples/common/app_reset
+    version: 3d5adc5
+  esp_diagnostics:
+    git: https://github.com/espressif/esp-insights.git
+    path: components/esp_diagnostics
+    version: 203a87f
+  esp_insights:
+    git: https://github.com/espressif/esp-insights.git
+    path: components/esp_insights
+    version: 203a87f
+  esp_rainmaker:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: components/esp_rainmaker
+    version: 3d5adc5
+  esp_schedule:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: components/esp_schedule
+    version: 3d5adc5
+  espressif/cbor:
+    rules:
+    - if: idf_version >=5.0
+    version: '*'
+  gpio_button:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: components/gpio_button
+    version: 3d5adc5
+  idf:
+    version: '>=4.3'
+  json_generator:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: components/json_generator
+    version: 3d5adc5
+  json_parser:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: components/json_parser
+    public: true
+    version: 3d5adc5
+  mesh_lite:
+    version: '*'
+  qrcode:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: components/qrcode
+    version: 3d5adc5
+  rmaker_common:
+    git: https://github.com/espressif/esp-rainmaker.git
+    path: components/rmaker_common
+    version: 3d5adc5
+  rtc_store:
+    git: https://github.com/espressif/esp-insights.git
+    path: components/rtc_store
+    version: 203a87f
+  usb_device:
+    git: https://github.com/espressif/esp-iot-bridge.git
+    path: components/usb/usb_device
+    rules:
+    - if: target in [esp32s2, esp32s3]
